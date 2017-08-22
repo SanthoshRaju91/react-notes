@@ -24,4 +24,8 @@ const Header = () => {
 
 ```
 
+2. React Paradigm, explains about why React is so popular. Compared to other frameworks React does not contain a model / service / factory / controller. 
 
+Why JSX ? 
+
+People usually get pretty grossed out by the HTML in the JavaScript and say it looks like 1998 when we were still writing JavaScript in our HTML. However, I assert that markup in JS is a good thing while JS in markup is a bad thing! Here, we're keeping all the concerns of a component in one place: the markup structure, the event listeners, the state, the state mutators, everything. If the component breaks, we know it broke there. That's really valuable.
