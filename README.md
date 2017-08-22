@@ -41,3 +41,22 @@ While props are passed down from parents and are immutable, state is created, re
 ```
   <iframe width="420" height="345" src="https://www.youtube.com/embed/1TYsjaXWLx0"></iframe>
 ```
+
+code for showing / hiding video
+
+```
+<button onClick={this.toggleVideoShow}>
+          {this.state.isShow ? 'Hide Video' : 'Show Video'}
+        </button>
+
+        { this.state.isShow &&
+
+           <iframe 
+           width="420" 
+           height="345"      
+           src="https://www.youtube.com/embed/1TYsjaXWLx0">
+           </iframe>
+
+        }
+
+```
