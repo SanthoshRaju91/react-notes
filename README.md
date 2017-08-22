@@ -6,7 +6,7 @@ Link to online editor [stackblitz](https://stackblitz.com/)
 
 1. Walkthrough with React core basics without JSX and explain about module imports. This would also explain about properties.
 
- `  
+```  
   const Title = (props) => {
   const style = { color: props.color};
   return (
@@ -22,6 +22,6 @@ const Header = () => {
   )
 };
 
- `
+```
 
 
